@@ -1,18 +1,18 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'extensions/loader/version'
+require 'extensions_loader/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "extensions-loader"
-  spec.version       = Extensions::Loader::VERSION
-  spec.authors       = ["Andrew Page"]
-  spec.email         = ["andrew@andrewpage.me"]
+  spec.name          = 'extensions_loader'
+  spec.version       = ExtensionsLoader::VERSION
+  spec.authors       = ['Andrew Page']
+  spec.email         = ['andrew@andrewpage.me']
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.license       = "MIT"
+  spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.

@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Extensions::Loader do
+describe ExtensionsLoader do
   it 'has a version number' do
-    expect(Extensions::Loader::VERSION).not_to be nil
+    expect(ExtensionsLoader::VERSION).not_to be nil
   end
 
   it 'does something useful' do
