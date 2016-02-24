@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/andrewpage/extensions_loader.svg?branch=master)](https://travis-ci.org/andrewpage/extensions_loader)
 [![Code Climate](https://codeclimate.com/github/andrewpage/extensions_loader/badges/gpa.svg)](https://codeclimate.com/github/andrewpage/extensions_loader)
 [![Test Coverage](https://codeclimate.com/github/andrewpage/extensions_loader/badges/coverage.svg)](https://codeclimate.com/github/andrewpage/extensions_loader/coverage)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ExtensionsLoader is a lightweight gem that simplifies the extension of Ruby classes and modules. Rather than monkeypatching or managing your extension modules yourself, you can use ExtensionsLoader to easily include extension modules into pre-defined Ruby modules and classes.
 
