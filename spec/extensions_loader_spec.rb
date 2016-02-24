@@ -1,7 +1,5 @@
 require 'spec_helper'
 
-require 'fixtures/extensions/test_extension'
-
 describe ExtensionsLoader do
   it 'has a version number' do
     expect(ExtensionsLoader::VERSION).not_to be nil
