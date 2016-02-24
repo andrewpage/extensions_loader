@@ -1,6 +1,7 @@
 language: ruby
 rvm:
   - 2.2.4
-env:
-  - CODECLIMATE_REPO_TOKEN=c58a1de318ccc61bfa14435a669abe88dd84d7b59159de6c0c50e216e2840b9f
+addons:
+    code_climate:
+        repo_token: c58a1de318ccc61bfa14435a669abe88dd84d7b59159de6c0c50e216e2840b9f
 script: rspec
