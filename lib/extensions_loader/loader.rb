@@ -4,7 +4,6 @@ module ExtensionsLoader
 
     def initialize(mapping)
       @mapping = mapping
-
       verify!
     end
 
